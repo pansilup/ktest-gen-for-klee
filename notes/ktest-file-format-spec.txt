@@ -1,0 +1,27 @@
+1	-	5	KTEST
+6	-	9	KTEST_VERSION
+10	-	13	numArgs
+loop args
+	<4Bytes-len><len Bytes - arg>
+
+4 - symArgvs
+4 - symArgvLen
+
+4 - numObjects
+loop objects
+	name ,		<4Bytes-len><lenBytes-value>
+	numBytes, 	4 bytes
+	bytes 		<'numBytes' bytes>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
